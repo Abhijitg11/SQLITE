@@ -9,11 +9,15 @@
 /* Begin PBXBuildFile section */
 		3F3A46481DB88D66002896A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A46471DB88D66002896A7 /* main.m */; };
 		3F3A464B1DB88D66002896A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A464A1DB88D66002896A7 /* AppDelegate.m */; };
-		3F3A464E1DB88D66002896A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A464D1DB88D66002896A7 /* ViewController.m */; };
 		3F3A46511DB88D66002896A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A464F1DB88D66002896A7 /* Main.storyboard */; };
 		3F3A46531DB88D66002896A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A46521DB88D66002896A7 /* Images.xcassets */; };
 		3F3A46561DB88D66002896A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A46541DB88D66002896A7 /* LaunchScreen.xib */; };
 		3F3A46621DB88D67002896A7 /* SQLITE1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A46611DB88D67002896A7 /* SQLITE1Tests.m */; };
+		3F4720CA1DEBF53800B8B3B9 /* EmpClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4720C91DEBF53800B8B3B9 /* EmpClass.m */; };
+		3F4720D01DEBF5D400B8B3B9 /* EmpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4720CF1DEBF5D400B8B3B9 /* EmpTableViewController.m */; };
+		3F4720D31DEBF6ED00B8B3B9 /* SaveEmpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4720D21DEBF6ED00B8B3B9 /* SaveEmpViewController.m */; };
+		3F4720D61DEBF71900B8B3B9 /* UpdateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4720D51DEBF71900B8B3B9 /* UpdateViewController.m */; };
+		3F9211131DEDB61D0053353F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7E0AA81DEC6A50000C0A29 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +36,21 @@
 		3F3A46471DB88D66002896A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F3A46491DB88D66002896A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F3A464A1DB88D66002896A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F3A464C1DB88D66002896A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3F3A464D1DB88D66002896A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F3A46501DB88D66002896A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F3A46521DB88D66002896A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3F3A46551DB88D66002896A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3F3A465B1DB88D67002896A7 /* SQLITE1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLITE1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F3A46601DB88D67002896A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F3A46611DB88D67002896A7 /* SQLITE1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQLITE1Tests.m; sourceTree = "<group>"; };
+		3F4720C81DEBF53800B8B3B9 /* EmpClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpClass.h; sourceTree = "<group>"; };
+		3F4720C91DEBF53800B8B3B9 /* EmpClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpClass.m; sourceTree = "<group>"; };
+		3F4720CE1DEBF5D400B8B3B9 /* EmpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpTableViewController.h; sourceTree = "<group>"; };
+		3F4720CF1DEBF5D400B8B3B9 /* EmpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpTableViewController.m; sourceTree = "<group>"; };
+		3F4720D11DEBF6ED00B8B3B9 /* SaveEmpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveEmpViewController.h; sourceTree = "<group>"; };
+		3F4720D21DEBF6ED00B8B3B9 /* SaveEmpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveEmpViewController.m; sourceTree = "<group>"; };
+		3F4720D41DEBF71900B8B3B9 /* UpdateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UpdateViewController.h; sourceTree = "<group>"; };
+		3F4720D51DEBF71900B8B3B9 /* UpdateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UpdateViewController.m; sourceTree = "<group>"; };
+		3F7E0AA81DEC6A50000C0A29 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9211131DEDB61D0053353F /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +75,7 @@
 		3F3A46391DB88D66002896A7 = {
 			isa = PBXGroup;
 			children = (
+				3F7E0AA81DEC6A50000C0A29 /* libsqlite3.dylib */,
 				3F3A46441DB88D66002896A7 /* SQLITE1 */,
 				3F3A465E1DB88D67002896A7 /* SQLITE1Tests */,
 				3F3A46431DB88D66002896A7 /* Products */,
@@ -83,8 +96,14 @@
 			children = (
 				3F3A46491DB88D66002896A7 /* AppDelegate.h */,
 				3F3A464A1DB88D66002896A7 /* AppDelegate.m */,
-				3F3A464C1DB88D66002896A7 /* ViewController.h */,
-				3F3A464D1DB88D66002896A7 /* ViewController.m */,
+				3F4720C81DEBF53800B8B3B9 /* EmpClass.h */,
+				3F4720C91DEBF53800B8B3B9 /* EmpClass.m */,
+				3F4720CE1DEBF5D400B8B3B9 /* EmpTableViewController.h */,
+				3F4720CF1DEBF5D400B8B3B9 /* EmpTableViewController.m */,
+				3F4720D11DEBF6ED00B8B3B9 /* SaveEmpViewController.h */,
+				3F4720D21DEBF6ED00B8B3B9 /* SaveEmpViewController.m */,
+				3F4720D41DEBF71900B8B3B9 /* UpdateViewController.h */,
+				3F4720D51DEBF71900B8B3B9 /* UpdateViewController.m */,
 				3F3A464F1DB88D66002896A7 /* Main.storyboard */,
 				3F3A46521DB88D66002896A7 /* Images.xcassets */,
 				3F3A46541DB88D66002896A7 /* LaunchScreen.xib */,
@@ -219,8 +238,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F3A464E1DB88D66002896A7 /* ViewController.m in Sources */,
+				3F4720D01DEBF5D400B8B3B9 /* EmpTableViewController.m in Sources */,
+				3F4720CA1DEBF53800B8B3B9 /* EmpClass.m in Sources */,
+				3F4720D61DEBF71900B8B3B9 /* UpdateViewController.m in Sources */,
 				3F3A464B1DB88D66002896A7 /* AppDelegate.m in Sources */,
+				3F4720D31DEBF6ED00B8B3B9 /* SaveEmpViewController.m in Sources */,
 				3F3A46481DB88D66002896A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +440,7 @@
 				3F3A46671DB88D67002896A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F3A46681DB88D67002896A7 /* Build configuration list for PBXNativeTarget "SQLITE1Tests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +449,7 @@
 				3F3A466A1DB88D67002896A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
